@@ -21,4 +21,9 @@ public class CalculatorTest {
 	public void testMinus() {
 		assertThat(calc.minus(), is(-1));
 	}
+
+	@Test
+	public void testMultiply() {
+		assertThat(calc.multiply(), is(2));
+	}
 }
